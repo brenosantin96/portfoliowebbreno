@@ -63,8 +63,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    bottom: 10%;
-    height: 100vh;
+    top: 24%;
 }
 
 .thin-bar {
@@ -103,11 +102,98 @@
     justify-content: center;
 }
 
-.citacoes img {
-    position: relative;
-}
-
 .citacoes p {
     font-size: 20px;
     margin-top: 10px;
+}
+
+.desarrolos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientesdesarrolados {
+    margin-top: 20px;
+}
+
+.itemclientdesarrolado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemclientdesarrolado img {
+    height: 50%;
+    width: 50%;
+    box-shadow: 5px 5px 5px rgb(134, 129, 129);
+}
+
+.itemclientdesarrolado img,
+.itemclientdesarrolado p,
+.itemclientdesarrolado div {
+    margin-top: 8px;
+}
+
+.finalsection {
+    background-image: url('../public/images/section-bg-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70vh;
+    color: white;
+}
+
+.button-content1finalsection {
+    width: 20%;
+}
+
+.footerMainPage {
+    background-color: #191919;
+    color: #FFFFDA;
+}
+
+.footerMainPage p {
+    padding-top: 8px;
+}
+
+.sobreSection {
+    background-image: url('../public/images/bg-sobre01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70vh;
+}
+
+.content1sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 25%;
+}
+
+.content1sobre h1 {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sobrenote {
+    width: 100%;
+    height: 50vh;
+    box-shadow: 5px 5px 5px rgb(134, 129, 129);
 }
