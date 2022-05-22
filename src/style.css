@@ -1,3 +1,7 @@
+body {
+    background-color: #F5F5F5;
+}
+
 .introduceSection {
     background-image: url('../public/images/clement.jpg');
     background-size: cover;
@@ -88,10 +92,6 @@
 
 .button-box1-content {
     margin-top: 40px;
-}
-
-.clientSection {
-    background-color: #F5F5F5;
 }
 
 .citacoes {
@@ -196,4 +196,122 @@
     width: 100%;
     height: 50vh;
     box-shadow: 5px 5px 5px rgb(134, 129, 129);
+}
+
+
+/* servicios */
+
+.serviciossection {
+    background-image: url('../public/images/servicios-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70vh;
+}
+
+.content1servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 25%;
+}
+
+.content1servicios h1 {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.titleServiceItem {
+    margin: 15px 0;
+}
+
+.titleServiceItem h5 {
+    margin-right: 15px;
+}
+
+.itemscarrousel img {
+    width: 98%;
+    height: 98%;
+}
+
+@media screen and (max-width: 767px) {
+    .itemscarrousel {
+        display: none;
+    }
+}
+
+
+/* sitios */
+
+.sitiossection {
+    background-image: url('../public/images/servicios2-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 80vh;
+}
+
+.content1sitios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 25%;
+}
+
+.content1sitios h1 {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.sitiosection {
+    margin-top: 80px;
+}
+
+.sitiosection img {
+    box-shadow: 5px 5px 5px rgb(134, 129, 129);
+}
+
+.aumentatusventas {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* contato */
+
+.contatosection {
+    background-image: url('../public/images/clement.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70vh;
+}
+
+.content1contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 25%;
+}
+
+.content1contacto h1 {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.contact {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
